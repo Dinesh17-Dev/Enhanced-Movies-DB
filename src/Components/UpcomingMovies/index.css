@@ -1,0 +1,13 @@
+.upcomingMovies-list-container {
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.upcoming-movies-main-container {
+  padding: 10px;
+}

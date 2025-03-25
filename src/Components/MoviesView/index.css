@@ -1,0 +1,79 @@
+.popular-movies-poster {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popular-movies-poster:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.popular-movies-view-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.popular-movies-view-container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.popular-movies-view-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  align-self: flex-start;
+  margin: 10px 0;
+}
+
+.popular-movies-view-rating {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  align-self: flex-start;
+  margin-bottom: 15px;
+}
+
+.spanner {
+  font-weight: 400;
+  color: #0077b6;
+}
+
+.pmovies-button {
+  height: 35px;
+  width: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  background-color: #0077b6;
+  color: #ffffff;
+  align-self: flex-start;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pmovies-button:hover {
+  background-color: #005f8a;
+  transform: translateY(-2px);
+}
+
+.pmovies-button:active {
+  transform: translateY(0);
+}
