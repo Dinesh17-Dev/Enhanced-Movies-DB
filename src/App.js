@@ -1,10 +1,10 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
-import PopularMovies from './Components/PopularMovies/index.js'
-import TopRatedMovies from './Components/TopRatedMovies/index.js'
-import UpcomingMovies from './Components/UpcomingMovies/index.js'
-import MovieDetails from './Components/MovieDetails/index.js'
-import SearchMovie from './Components/SearchMovies/index.js'
+import PopularMovies from './Components/PopularMovies/index'
+import TopRatedMovies from './Components/TopRatedMovies/index'
+import UpcomingMovies from './Components/UpcomingMovies/index'
+import MovieDetails from './Components/MovieDetails/index'
+import SearchMovie from './Components/SearchMovies/index'
 
 import './App.css'
 

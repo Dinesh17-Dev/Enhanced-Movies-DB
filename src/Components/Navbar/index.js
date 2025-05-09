@@ -1,9 +1,9 @@
-import {Link, withRouter} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {useState} from 'react'
 
 import './index.css'
 
-const Navbar = props => {
+const Navbar = () => {
   const [value, setValue] = useState('')
 
   const getValue = event => {

@@ -1,7 +1,7 @@
 import {Component} from 'react'
 
 import Navbar from '../Navbar'
-import MovieCastView from '../MovieCastView/index.js'
+import MovieCastView from '../MovieCastView/index'
 
 import './index.css'
 
@@ -13,13 +13,13 @@ class MovieDetails extends Component {
   }
 
   getMovieDetails = async () => {
-    const api_key = '4362c27df08506ae74bed5c135f05eb9'
+    const apiKey = '4362c27df08506ae74bed5c135f05eb9'
     const {match} = this.props
 
     const {params} = match
     const {id} = params
-    const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${api_key}&language=en-US`
-    const castUrl = `https://api.themoviedb.org/3/movie/${id}/credits?api_key=${api_key}&language=en-US`
+    const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US`
+    const castUrl = `https://api.themoviedb.org/3/movie/${id}/credits?api_key=${apiKey}&language=en-US`
     const options = {
       method: 'GET',
     }

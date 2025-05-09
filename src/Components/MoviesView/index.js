@@ -7,10 +7,8 @@ const MoviesView = props => {
   const {
     id,
     originalTitle,
-    overview,
     popularity,
     posterPath,
-    releaseDate,
     title,
     voteAverage,
   } = popularMovies

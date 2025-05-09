@@ -14,7 +14,9 @@ class SearchMovie extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (prevProps.match.params.query !== this.props.match.params.query) {
+    const {match} = this.props
+    const {match: prevMatch} = prevProps
+    if (prevMatch.params.query !== match.params.query) {
       this.getSearchDetails()
     }
   }
