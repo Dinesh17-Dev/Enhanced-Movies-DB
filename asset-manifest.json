@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Enhanced-Movies-DB/static/css/main.e4d89b62.chunk.css",
+    "main.js": "/Enhanced-Movies-DB/static/js/main.83f6dac3.chunk.js",
+    "main.js.map": "/Enhanced-Movies-DB/static/js/main.83f6dac3.chunk.js.map",
+    "runtime-main.js": "/Enhanced-Movies-DB/static/js/runtime-main.ab696d67.js",
+    "runtime-main.js.map": "/Enhanced-Movies-DB/static/js/runtime-main.ab696d67.js.map",
+    "static/js/2.7aaf080e.chunk.js": "/Enhanced-Movies-DB/static/js/2.7aaf080e.chunk.js",
+    "static/js/2.7aaf080e.chunk.js.map": "/Enhanced-Movies-DB/static/js/2.7aaf080e.chunk.js.map",
+    "index.html": "/Enhanced-Movies-DB/index.html",
+    "static/css/main.e4d89b62.chunk.css.map": "/Enhanced-Movies-DB/static/css/main.e4d89b62.chunk.css.map",
+    "static/js/2.7aaf080e.chunk.js.LICENSE.txt": "/Enhanced-Movies-DB/static/js/2.7aaf080e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab696d67.js",
+    "static/js/2.7aaf080e.chunk.js",
+    "static/css/main.e4d89b62.chunk.css",
+    "static/js/main.83f6dac3.chunk.js"
+  ]
+}
